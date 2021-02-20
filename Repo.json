@@ -4,20 +4,20 @@
     "type": 1,
     "description": "This is an Express provider package for Syncler written by JonathanAkaJD. This package is Anime specific and is intended to be used in conjunction with the ACID ScraperZ - TV&Movie package and ACID ScraperZ - Cached package.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/main/Express/Anime-Providers.json"
+    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Anime-Providers.json"
   },
 {
     "title": "ACID ScraperZ - TV&Movie",
     "type": 1,
     "description": "This is an Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/main/Express/TVMovie-Providers.json"
+    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json"
   },
 {
     "title": "ACID ScraperZ - Cached",
     "type": 2,
     "description": "This is a Kosmos provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - TV&Movie package.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/main/Kosmos/Cached-Providers.js"
+    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Kosmos/Cached-Providers.js"
   }
 ]
