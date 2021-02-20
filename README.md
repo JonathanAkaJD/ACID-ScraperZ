@@ -2,7 +2,7 @@
 
 ACID-ScraperZ are Express and Kosmos packages for the Syncler app!
 
-## Packages & package types
+## Packages + package types + links
 
 Theres 3 packages for you to choose from. Each package is either Kosmos or Express based.
 
