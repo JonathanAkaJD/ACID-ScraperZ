@@ -18,6 +18,6 @@
     "type": 2,
     "description": "This is a Kosmos provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - TV&Movie package to maximize the links available to you.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/main/Kosmos/Cached-Provider.json"
+    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/main/Kosmos/Cached-Provider.js"
   }
 ]
