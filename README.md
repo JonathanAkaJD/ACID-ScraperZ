@@ -1,10 +1,10 @@
 # ACID-ScraperZ
 
-ACID-ScraperZ are Express and Kosmos packages for the Syncler app!
+ACID-ScraperZ are Express and Kosmos provider packages for the Syncler app!
 
 ## Packages + package types + links
 
-Theres 3 packages for you to choose from. Each package is either Kosmos or Express based.
+Theres 3 provider packages for you to choose from. Each package is either Kosmos or Express based.
 
 ACID-ScraperZ - Anime(Express)
 https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Anime-Providers.json
@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Kosmos/Cac
 It's recommend to install both the ACID-ScraperZ TV&Movie and the ACID-ScraperZ - Cached packages.
 Only install ACID-ScraperZ - Anime if you plan to watch such content.
 
-## Installing packages
+## Installing provider packages
 
 1. Open Syncler and navigate to settings + Provider packages.
 2. Depending on the package type(Express or Kosmos) choose "Install Express source provider packages" or "Install Kosmos source provider packages".
