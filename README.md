@@ -21,8 +21,8 @@ Only install ACID-ScraperZ - Anime if you plan to watch such content.
 ## Installing provider packages
 
 1. Open Syncler and navigate to settings + Provider packages.
-2. Depending on the package type(Express or Kosmos) choose "Install Express source provider packages" or "Install Kosmos source provider packages".
-3. Enter the code on the website given to you in the popup.
-4. Copy and paste the package URL when asked.
-5. Press next on the website.
+2. Depending on the package type(Express or Kosmos) select "Install Express source provider packages" or "Install Kosmos source provider packages".
+3. Open a web browser on any device and navigate to the link provided in the popup.
+4. Proceed to type the 8-character code provided in the popup which contained the link and press the next button.
+5. Copy and paste the package URL when asked and proceed to press the next button.
 6. Success! Press Done in the app and you are done.
