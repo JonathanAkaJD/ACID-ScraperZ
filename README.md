@@ -1,6 +1,6 @@
 # ACID-ScraperZ Repository
 
-Here we provide Express and Kosmos provider packages for the Syncler app!
+Here you will find Express and Kosmos provider packages for the Syncler app!
 
 ## Packages + package types + links
 
