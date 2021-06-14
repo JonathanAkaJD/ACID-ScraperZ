@@ -7,16 +7,16 @@
     "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Anime-Providers.json"
   },
 {
-    "title": "JAKEDUP - Alternative",
+    "title": "ACID ScraperZ - BETA",
     "type": 1,
-    "description": "This is an Express provider package for Syncler written by JakedUP. Use this package in conjunction with the ACID ScraperZ - Cached package.",
-    "repositoryUrl": "https://syncler-providers.herokuapp.com/syncler/express-hybrid.json",
-    "packageUrl": "https://syncler-providers.herokuapp.com/syncler/express-hybrid.json"
+    "description": "This is an Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
+    "repositoryUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/BETA.json",
+    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/BETA.json"
   },
 {
     "title": "ACID ScraperZ - TV&Movie",
     "type": 1,
-    "description": "This is an Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
+    "description": "This is an BETA Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
     "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json"
   },
