@@ -9,7 +9,7 @@
 {
     "title": "ACID ScraperZ - BETA",
     "type": 1,
-    "description": "This is a (BETA) Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
+    "description": "This is an experimental (BETA) version of the TV&Movie Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ",
     "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/BETA.json"
   },
