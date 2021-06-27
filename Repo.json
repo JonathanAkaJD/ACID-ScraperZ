@@ -1,19 +1,5 @@
 [
 {
-    "title": "ACID ScraperZ - Anime",
-    "type": 1,
-    "description": "This is a Express provider package for Syncler written by JonathanAkaJD. This package is Anime specific and is intended to be used in conjunction with the ACID ScraperZ - TV&Movies package and ACID ScraperZ - Cached package.",
-    "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ/",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Anime-Providers.json"
-  },
-{
-    "title": "ACID ScraperZ - Experimental",
-    "type": 1,
-    "description": "This is a experimental (BETA) version of the TV&Movies Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
-    "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ/",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/BETA.json"
-  },
-{
     "title": "ACID ScraperZ - TV&Movies",
     "type": 1,
     "description": "This is a Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
