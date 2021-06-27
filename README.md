@@ -9,13 +9,13 @@ Theres 3 provider packages for you to choose from. Each package is either Kosmos
 ACID-ScraperZ - Anime(Express)
 https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Anime-Providers.json
 
-ACID-ScraperZ - TV&Movie(Express)
+ACID-ScraperZ - TV&Movies(Express)
 https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json
 
 ACID-ScraperZ - Cached(Kosmos)
 https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Kosmos/Cached-Providers.js
 
-It's recommend to install both the ACID-ScraperZ TV&Movie and the ACID-ScraperZ - Cached packages.
+It's recommend to install both the ACID-ScraperZ TV&Movies and the ACID-ScraperZ - Cached packages.
 Only install ACID-ScraperZ - Anime if you plan to watch such content.
 
 ## Installing provider packages
