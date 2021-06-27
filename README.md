@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TV
 ACID-ScraperZ - Cached(Kosmos)
 https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Kosmos/Cached-Providers.js
 
-It's recommend to install both the ACID-ScraperZ TV&Movies and the ACID-ScraperZ - Cached packages.
+It's recommend to install both the ACID-ScraperZ - TV&Movies and the ACID-ScraperZ - Cached packages.
 Only install ACID-ScraperZ - Anime if you plan to watch such content.
 
 ## Installing provider packages
