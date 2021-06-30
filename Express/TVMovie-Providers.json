@@ -2,11 +2,154 @@
     "_manifest" : {
     "name": "ACID ScraperZ",
     "id": "TV&Movie.Providers",
-    "version": 4,
+    "version": 5,
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json"
   },
 
+"corsarored": {
+        "name": "Corsaro.red",
+        "enabled": true,
+        "languages": [
+            "it"
+        ],
+        "base_url": "https://corsaro.red/api/search",
+        "response_type": "json",
+        "http_method": "POST",
+        "movie": {
+            "query": "{\"term\":\"{query}\",\"category\":\"2\"}",
+            "keywords": [
+                "{title.it} {year}",
+                "{title.original} {year}"
+            ]
+        },
+        "episode": {
+            "query": "{\"term\":\"{query}\",\"category\":\"1\"}",
+            "keywords": [
+                "{title.it} {episodeCode}",
+                "{title.original} {episodeCode}"
+            ]
+        },
+        "season": {
+            "query": "{\"term\":\"{query}\",\"category\":\"1\"}",
+            "keywords": [
+                "{title.it} {seasonCode}",
+                "{title.original} {seasonCode}"
+            ]
+        },
+        "anime": {
+            "query": "{\"term\":\"{query}\",\"category\":\"7\"}",
+            "keywords": [
+                "{title.it} {episodeCode}",
+                "{title.original} {episodeCode}"
+            ]
+        },
+        "json_format": {
+            "results": "results",
+            "url": "magnet",
+            "title": "title",
+            "seeds": "seeders",
+            "peers": "leechers",
+            "size": "size",
+            "quality": "description"
+        }
+    },
+
+"Torlock": {
+        "name": "TorLock",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://www.torlock.com",
+        "fallback_urls": [],
+        "response_type": "text",
+        "movie": {
+            "query": "/movie/torrents/{query}.html?",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/television/torrents/{query}.html?",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "season": {
+            "query": "/television/torrents/{query}.html?",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/anime/torrents/{query}.html?",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "separator": "-",
+        "html_parser": {
+            "row": "doc.querySelectorAll('tbody tr')",
+            "title": "row.querySelector('td:nth-child(1) a b').textContent",
+            "peers": "row.querySelector('.tdl').textContent",
+            "seeds": "row.querySelector('.tul').textContent",
+            "size": "row.querySelector('.ts').textContent",
+            "url": "row.querySelector('td:nth-child(1) a').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            "'s": "s",
+            "\"": ""
+        }
+    },
+
+"btscene": {
+        "name": "btscene",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://btdb.eu",
+        "fallback_urls": [],
+        "response_type": "text",
+        "separator": "%20",
+        "movie": {
+            "query": "/search/{query}/0/?sort=popular",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/search/{query}/0/?sort=popular",
+            "keywords": "{title} {episodeCode}"
+        },
+        "season": {
+            "query": "/search/{query}/0/?sort=popular",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/search/{query}/0/?sort=popular",
+            "keywords": "{title} {absoluteNumber}"
+        },
+        "html_parser": {
+            "row": "doc.querySelectorAll('.card-body .media')",
+            "title": "row.querySelector('.media-body .item-title').textContent",
+            "peers": "row.querySelector('.item-meta-info small:nth-child(4) strong').textContent",
+            "seeds": "row.querySelector('.item-meta-info small:nth-child(3) strong').textContent",
+            "size": "row.querySelector('.item-meta-info small:nth-child(1) strong').textContent",
+            "url": "row.querySelector('.media-right a:nth-child(1)').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            ".": "",
+            ":": "",
+            "'": "",
+            "&": ""
+        }
+    },
     "extratorrent": {
         "name": "ExtraTorrent",
         "enabled": true,
@@ -1146,6 +1289,56 @@
             "seeds": "row.querySelector('td:nth-child(6)').textContent",
             "size": "row.querySelector('td:nth-child(4)').textContent",
             "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            "'s": "s",
+            "\"": ""
+        }
+    },
+
+"AniDex": {
+        "name": "AniDex",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://anidex.info",
+        "fallback_urls": [],
+        "response_type": "text",
+        "movie": {
+            "query": "/?q={query}",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "season": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "separator": "+",
+        "html_parser": {
+            "row": "doc.querySelectorAll('tbody tr')",
+            "title": "row.querySelector('td:nth-child(3) a').textContent",
+            "peers": "row.querySelector('span:nth-child(10)').textContent",
+            "seeds": "row.querySelector('td:nth-child(9)').textContent",
+            "size": "row.querySelector('td:nth-child(7)').textContent",
+            "url": "row.querySelector('td:nth-child(6) a').getAttribute('href')"
         },
         "source_is_in_sub_page": false,
         "title_replacement": {
