@@ -1213,52 +1213,12 @@
         }
     },
 
-    "nyaa_episode": {
-        "name": "Nyaa",
+    "nyaa": {
+        "name": "Nyaa (anime)",
         "enabled": true,
-        "languages": ["en"],
-        "base_url": "https://nyaa.si",
-        "fallback_urls": [],
-        "response_type": "text",
-        "movie": {
-            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
-            "keywords": "{title} {year}"
-        },
-        "episode": {
-            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
-            "keywords": "{title} {episode}"
-        },
-        "season": {
-            "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
-            "keywords": [
-                "{title} {seasonCode}",
-                "{title} season"
-            ]
-        },
-        "anime": {
-            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
-            "keywords": "{title} {episode}"
-        },
-        "separator": "+",
-        "html_parser": {
-            "row": "doc.querySelectorAll('.table-responsive tbody > tr')",
-            "title": "row.querySelector('td:nth-child(2) a').textContent",
-            "peers": "row.querySelector('td:nth-child(7)').textContent.trim()",
-            "seeds": "row.querySelector('td:nth-child(6)').textContent.trim()",
-            "size": "row.querySelector('td:nth-child(4)').textContent.trim()",
-            "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
-        },
-        "source_is_in_sub_page": false,
-        "title_replacement": {
-            "'s": "s",
-            "\"": ""
-        }
-    },
-
-    "nyaa_absolute": {
-        "name": "Nyaa",
-        "enabled": true,
-        "languages": ["en"],
+        "languages": [
+            "en"
+        ],
         "base_url": "https://nyaa.si",
         "fallback_urls": [],
         "response_type": "text",
@@ -1288,6 +1248,50 @@
             "peers": "row.querySelector('td:nth-child(7)').textContent",
             "seeds": "row.querySelector('td:nth-child(6)').textContent",
             "size": "row.querySelector('td:nth-child(4)').textContent",
+            "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            "'s": "s",
+            "\"": ""
+        }
+    },
+
+    "nyaa2": {
+        "name": "Nyaa2",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://nyaa.si",
+        "fallback_urls": [],
+        "response_type": "text",
+        "movie": {
+            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
+            "keywords": "{title} {episode}"
+        },
+        "season": {
+            "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
+            "keywords": "{title} {episode}"
+        },
+        "separator": "+",
+        "html_parser": {
+            "row": "doc.querySelectorAll('.table-responsive tbody > tr')",
+            "title": "row.querySelector('td:nth-child(2) a').textContent",
+            "peers": "row.querySelector('td:nth-child(7)').textContent.trim()",
+            "seeds": "row.querySelector('td:nth-child(6)').textContent.trim()",
+            "size": "row.querySelector('td:nth-child(4)').textContent.trim()",
             "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
         },
         "source_is_in_sub_page": false,
