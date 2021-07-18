@@ -160,7 +160,7 @@
         "base_url": "https://yts.mx",
         "fallback_urls": [
             "https://yts.pm",
-            "https://yts.ms
+            "https://yts.ms",
             "https://yts.unblocked.lat"
         ],
         "response_type": "json",
