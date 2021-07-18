@@ -881,51 +881,7 @@
         }
     },
     
-    "btscene": {
-        "name": "btscene",
-        "enabled": true,
-        "languages": [
-            "en"
-        ],
-        "base_url": "https://btdb.eu",
-        "fallback_urls": [],
-        "response_type": "text",
-        "separator": "%20",
-        "movie": {
-            "query": "/search/{query}/0/?sort=popular",
-            "keywords": "{title} {year}"
-        },
-        "episode": {
-            "query": "/search/{query}/0/?sort=popular",
-            "keywords": "{title} {episodeCode}"
-        },
-        "season": {
-            "query": "/search/{query}/0/?sort=popular",
-            "keywords": [
-                "{title} {seasonCode}",
-                "{title} season"
-            ]
-        },
-        "anime": {
-            "query": "/search/{query}/0/?sort=popular",
-            "keywords": "{title} {absoluteNumber}"
-        },
-        "html_parser": {
-            "row": "doc.querySelectorAll('.card-body .media')",
-            "title": "row.querySelector('.media-body .item-title').textContent",
-            "peers": "row.querySelector('.item-meta-info small:nth-child(4) strong').textContent",
-            "seeds": "row.querySelector('.item-meta-info small:nth-child(3) strong').textContent",
-            "size": "row.querySelector('.item-meta-info small:nth-child(1) strong').textContent",
-            "url": "row.querySelector('.media-right a:nth-child(1)').getAttribute('href')"
-        },
-        "source_is_in_sub_page": false,
-        "title_replacement": {
-            ".": "",
-            ":": "",
-            "'": "",
-            "&": ""
-        }
-    },
+"btscene":{"name":"Btscene","enabled":true,"languages":["en"],"base_url":"http:\/\/btscene.today","fallback_urls":[],"response_type":"text","separator":"+","movie":{"query":"\/search?q={query}","keywords":"{title} {year}"},"episode":{"query":"\/search?q={query}","keywords":"{title} {episodeCode}"},"season":{"query":"\/search?q={query}","keywords":"{title} {seasonCode}"},"anime":{"query":"\/search?q={query}","keywords":"{title} {episode}"},"html_parser":{"row":"doc.querySelectorAll('.rtable tbody tr.row')","title":"row.querySelector('a').textContent","peers":"row.querySelector('td:nth-child(5)').textContent","seeds":"row.querySelector('td:nth-child(4)').textContent","size":"row.querySelector('td:nth-child(2)').textContent","url":"row.querySelector('td:nth-child(6) a').getAttribute('href')"},"title_replacement":{".":"",":":"","'":"","&":""},"source_is_in_sub_page":false,"original_package":"Orion - Wako"},
 
     "oxtorrent": {
         "name": "oxtorrent",
