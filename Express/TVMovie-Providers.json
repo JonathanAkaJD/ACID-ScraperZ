@@ -1496,7 +1496,7 @@
     },
     "AniDex": {
         "name": "AniDex",
-        "enabled": true,
+        "enabled": false,
         "languages": [
             "en"
         ],
