@@ -1159,7 +1159,7 @@
 
 "AniDex": {
         "name": "AniDex",
-        "enabled": false,
+        "enabled": true,
         "languages": [
             "en"
         ],
