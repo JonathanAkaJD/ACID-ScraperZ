@@ -1157,6 +1157,56 @@
         }
     },
 
+"AniDex": {
+        "name": "AniDex",
+        "enabled": false,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://anidex.info",
+        "fallback_urls": [],
+        "response_type": "text",
+        "movie": {
+            "query": "/?q={query}",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "season": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/?q={query}",
+            "keywords": [
+                "{title} {absoluteNumber}",
+                "{title} {episode}"
+            ]
+        },
+        "separator": "+",
+        "html_parser": {
+            "row": "doc.querySelectorAll('tbody tr')",
+            "title": "row.querySelector('td:nth-child(3) a').textContent",
+            "peers": "row.querySelector('span:nth-child(10)').textContent",
+            "seeds": "row.querySelector('td:nth-child(9)').textContent",
+            "size": "row.querySelector('td:nth-child(7)').textContent",
+            "url": "row.querySelector('td:nth-child(6) a').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            "'s": "s",
+            "\"": ""
+        }
+    },
+
     "animetosho": {
         "name": "AnimeTosho",
         "enabled": true,
