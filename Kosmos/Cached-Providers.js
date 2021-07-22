@@ -2,7 +2,7 @@
 {
   "name": "ACID ScraperZ",
   "id": "Cached.Providers",
-  "version": 2,
+  "version": 6,
   "classPath": "bouncy.BouncyProviderPackage",
   "permaUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Kosmos/Cached-Providers.js"
 }
