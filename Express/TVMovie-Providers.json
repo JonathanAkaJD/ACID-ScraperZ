@@ -2,64 +2,13 @@
   "_manifest" : {
     "name": "ACID ScraperZ",
     "id": "TV&Movie.Providers",
-    "version": 8,
+    "version": 9,
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json"
   },
 "orion": {"name":"Orion","languages":["en"],"base_url":"https://api.orionoid.com","enabled":true,"enabled_in_list":false,"timeout_ms":90000,"trust_results":true,"trust_movie_results":true,"trust_episode_results":true,"movie":{"query":"/?token=VV6UJDAO3LMOOVKCSAFO2TTIHBDLOD2MYLUXSGVZR3V7AWJYCIRNLN3FOSM5T6RIC3E7BEJF4USQZNP2GFADYDFLK4BH2DLLROCNHCPDBVAIW6H7RODW6FDQZQXGDOUG&mode=stream&action=retrieve&output=syncler&type=movie&streamtype=torrent,hoster&protocoltorrent=magnet&filename=true&fileunknown=false&limitcount=2&sortvalue=filesize&sortorder=descending&videoquality=sd_hd4k&video3d=false&audiochannels=2_&access=false&lookup=true&idimdb={imdbId}&query={query}","keywords":"{title}"},"episode":{"query":"/?token=VV6UJDAO3LMOOVKCSAFO2TTIHBDLOD2MYLUXSGVZR3V7AWJYCIRNLN3FOSM5T6RIC3E7BEJF4USQZNP2GFADYDFLK4BH2DLLROCNHCPDBVAIW6H7RODW6FDQZQXGDOUG&mode=stream&action=retrieve&output=syncler&type=episode&streamtype=torrent,hoster&protocoltorrent=magnet&filename=true&fileunknown=false&limitcount=2&sortvalue=filesize&sortorder=descending&videoquality=sd_hd4k&video3d=false&audiochannels=2_&access=false&lookup=true&idimdb={showImdbId}&numberseason={season}&numberepisode={episode}&query={query}","keywords":"{title}"},"separator":"+","response_type":"json","json_format":{"results":"data.streams","url":"link","title":"name","seeds":"seeds","peers":"peers","size":"size","isPackage":"pack"}},
 
-"Torlock": {
-        "name": "TorLock",
-        "enabled": true,
-        "languages": [
-            "en"
-        ],
-        "base_url": "https://www.torlock.com",
-        "fallback_urls": [
-            "https://torlock.unblockit.uno"
-        ],
-        "response_type": "text",
-        "movie": {
-            "query": "/movie/torrents/{query}.html?",
-            "keywords": "{title} {year}"
-        },
-        "episode": {
-            "query": "/television/torrents/{query}.html?",
-            "keywords": "{title} {year} {episodeCode}"
-        },
-        "season": {
-            "query": "/television/torrents/{query}.html?",
-            "keywords": [
-                "{title} {year} {seasonCode}",
-                "{title} {year} season"
-            ]
-        },
-        "anime": {
-            "query": "/anime/torrents/{query}.html?",
-            "keywords": [
-                "{title} {absoluteNumber}",
-                "{title} {episode}"
-            ]
-        },
-        "separator": "-",
-        "html_parser": {
-            "row": "doc.querySelectorAll('tbody tr')",
-            "title": "row.querySelector('td:nth-child(1) a b').textContent",
-            "peers": "row.querySelector('.tdl').textContent",
-            "seeds": "row.querySelector('.tul').textContent",
-            "size": "row.querySelector('.ts').textContent",
-            "url": "row.querySelector('td:nth-child(1) a').getAttribute('href')"
-        },
-        "source_is_in_sub_page": true,
-        "title_replacement": {
-            ".": "",
-            ":": "",
-            "'": "",
-            "&": "",
-            "\"": "",
-            "*": ""
-        }
-    },
+"torlock":{"name":"TorLock","enabled":true,"languages":["en"],"base_url":"https:\/\/www.torlock.com","fallback_urls":["https:\/\/torlock.unblockit.uno"],"response_type":"text","separator":"-","movie":{"query":"\/movie\/torrents\/{query}.html?","keywords":"{title} {year}"},"episode":{"query":"\/television\/torrents\/{query}.html?","keywords":["{title} {year} {episodeCode}","{title} {absoluteNumber}","{title} {episode}"]},"season":{"query":"\/television\/torrents\/{query}.html?","keywords":["{title} {year} {seasonCode}","{title} {year} season","{title} {seasonCode}","{title} season"]},"anime":{"query":"\/anime\/torrents\/{query}.html?","keywords":["{title} {absoluteNumber}","{title} {episode}"]},"html_parser":{"row":"doc.querySelectorAll('tbody tr')","title":"row.querySelector('td:nth-child(1) a b').textContent","peers":"row.querySelector('.tdl').textContent","seeds":"row.querySelector('.tul').textContent","size":"row.querySelector('.ts').textContent","url":"row.querySelector('td:nth-child(1) a').getAttribute('href')"},"title_replacement":{".":"",":":"","'":"","&":"","\"":"","*":""},"source_is_in_sub_page":true,"original_package":"SynclerScrapers - OpenScrapers"},
 
 "extratorrent": {
         "name": "ExtraTorrent",
