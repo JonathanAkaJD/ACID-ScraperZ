@@ -7,13 +7,6 @@
     "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json"
   },
 {
-    "title": "ACID ScraperZ - TV&Movies(BETA)",
-    "type": 1,
-    "description": "This is a BETA Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
-    "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ/",
-    "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/BETA.json"
-  },
-{
     "title": "ACID ScraperZ - Cached",
     "type": 2,
     "description": "This is a Kosmos provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - TV&Movie package.",
