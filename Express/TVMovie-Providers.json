@@ -1,4 +1,5 @@
 "_manifest":{"name":"ACID ScraperZ","id":"TV&Movie.Providers","version":13,"classPath":"","permaUrl":"https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/TVMovie-Providers.json","sourcePackages":["SynclerScrapers - OpenScrapers","Syncler.ml - Providers","Orion - Wako | Default Key","Squizzle - Fast","Squizzle - Ultimate","Aki07 - Unified"]},"orion": {"name":"Orion","languages":["en"],"base_url":"https://api.orionoid.com","enabled":true,"enabled_in_list":false,"timeout_ms":90000,"trust_results":true,"trust_movie_results":true,"trust_episode_results":true,"movie":{"query":"/?token=VV6UJDAO3LMOOVKCSAFO2TTIHBDLOD2MYLUXSGVZR3V7AWJYCIRNLN3FOSM5T6RIC3E7BEJF4USQZNP2GFADYDFLK4BH2DLLROCNHCPDBVAIW6H7RODW6FDQZQXGDOUG&mode=stream&action=retrieve&output=syncler&type=movie&streamtype=torrent,hoster&protocoltorrent=magnet&filename=true&fileunknown=false&limitcount=2&sortvalue=filesize&sortorder=descending&videoquality=sd_hd4k&video3d=false&audiochannels=2_&access=false&lookup=true&idimdb={imdbId}&query={query}","keywords":"{title}"},"episode":{"query":"/?token=VV6UJDAO3LMOOVKCSAFO2TTIHBDLOD2MYLUXSGVZR3V7AWJYCIRNLN3FOSM5T6RIC3E7BEJF4USQZNP2GFADYDFLK4BH2DLLROCNHCPDBVAIW6H7RODW6FDQZQXGDOUG&mode=stream&action=retrieve&output=syncler&type=episode&streamtype=torrent,hoster&protocoltorrent=magnet&filename=true&fileunknown=false&limitcount=2&sortvalue=filesize&sortorder=descending&videoquality=sd_hd4k&video3d=false&audiochannels=2_&access=false&lookup=true&idimdb={showImdbId}&numberseason={season}&numberepisode={episode}&query={query}","keywords":"{title}"},"separator":"+","response_type":"json","json_format":{"results":"data.streams","url":"link","title":"name","seeds":"seeds","peers":"peers","size":"size","isPackage":"pack"}},"torrentapi":{"name":"RARBG","enabled":true,"languages":["en"],"base_url":"https:\/\/torrentapi.org","fallback_urls":[],"time_to_wait_between_each_request_ms":300,"time_to_wait_on_too_many_request_ms":2000,"response_type":"json","token":{"query":"\/pubapi_v2.php?get_token=get_token&app_id=syncler","token_validity_time_ms":840000,"token_format":{"token":"token"}},"movie":{"query":"\/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=syncler&token={token}","keywords":"{imdbId}"},"episode":{"query":"\/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=syncler&token={token}","keywords":["{title} {episodeCode}","{title} {year} {episodeCode}"]},"season":{"query":"\/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=syncler&token={token}","keywords":["{title} {seasonCode}","{title} season","{title} {year} {seasonCode}","{title} {year} season"]},"json_format":{"results":"torrent_results","url":"download","title":"title","seeds":"seeders","peers":"leechers","size":"size"},"title_replacement":{".":"",":":"","'":"","&":"","\"":"","*":""},"trust_results":true,"original_package":"SynclerScrapers - OpenScrapers"},"bitsearch": {
+        "bitsearch": {
         "name": "BitSearch",
         "enabled": true,
         "languages": [
@@ -37,33 +38,12 @@
         "html_parser": {
             "row": "doc.querySelectorAll('.search-result')",
             "title": "row.querySelector('.title a').textContent",
-                "{title} {year} {episodeCode}"
-            ]
-        },
-        "season": {
-            "query": "/search?q={query}&sort=seeders",
-            "keywords": [
-                "{title} {seasonCode}",
-                "{title} season",
-                "{title} {year} {seasonCode}",
-                "{title} {year} season"
-            ]
-        },
-        "anime": {
-            "query": "/search?q={query}&sort=seeders",
-            "keywords": [
-                "{title} {absoluteNumber}",
-                "{title} {episode}"
-            ]
-        },
-        "html_parser": {
-            "row": "doc.querySelectorAll('.search-result')",
-            "title": "row.querySelector('.title a').textContent",
             "peers": "row.querySelector('.stats div:nth-child(4)').textContent.trim().replace('.','').replace('K','00')",
             "seeds": "row.querySelector('.stats div:nth-child(3)').textContent.trim().replace('.','').replace('K','00')",
             "size": "row.querySelector('.stats div:nth-child(2)').textContent",
             "url": "row.querySelector('.dl-magnet').getAttribute('href')"
         },
+        "source_is_in_sub_page": false,
         "title_replacement": {
             ".": "",
             ":": "",
