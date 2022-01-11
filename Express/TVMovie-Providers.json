@@ -43,7 +43,6 @@
             "size": "row.querySelector('.stats div:nth-child(2)').textContent",
             "url": "row.querySelector('.dl-magnet').getAttribute('href')"
         },
-        "source_is_in_sub_page": false,
         "title_replacement": {
             ".": "",
             ":": "",
