@@ -16,7 +16,7 @@
 {
     "title": "ACID ScraperZ - BitSearch",
     "type": 1,
-    "description": "This is a Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached package.",
+    "description": "This is a Express provider package for Syncler written by JonathanAkaJD. Use this package in conjunction with the ACID ScraperZ - Cached and ACID ScraperZ - TV&Movies packages.",
     "repositoryUrl": "https://github.com/JonathanAkaJD/ACID-ScraperZ/",
     "packageUrl": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/Express/Bitsearch.json"
   },
