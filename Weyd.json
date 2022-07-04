@@ -35,6 +35,7 @@
 	],
 	"4": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ettv.json",
+                "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/kenben.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentz2.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockseries.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/yts.json",
