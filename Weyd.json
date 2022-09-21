@@ -40,9 +40,7 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/4movie.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/concen.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/isohunt.json",
-                "https://raw.githubusercontent.com//lalitjoshi06/scrapers/main/en/watchserieshdtv.json",
-                "https://raw.githubusercontent.com//lalitjoshi06/scrapers/main/en/iwaatch.json",		
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockmovies.json"
+                "https://raw.githubusercontent.com//lalitjoshi06/scrapers/main/en/watchserieshdtv.json"
 	],	
 	"5": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/rlsbb.json",
