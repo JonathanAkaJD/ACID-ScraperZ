@@ -4,7 +4,7 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/eztv.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/freshmeat.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/cloud.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/glodls.json",	
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/glodls.json",
 	        "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/bitlord.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentdownload.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/Paradise.json",
@@ -25,6 +25,7 @@
 	],
 	"3": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/zooqle.json",
+                "https://raw.githubusercontent.com/zakicade55/Scrapers/patch-3/sample/glodls",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/1337x.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/rarbg.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/7torr.json",
