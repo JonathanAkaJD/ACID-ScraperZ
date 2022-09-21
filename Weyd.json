@@ -49,9 +49,6 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/topnow.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockmovies.json",
                 "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/tvsplurge.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ettv.json",
-                "https://raw.githubusercontent.com//lalitjoshi06/scrapers/main/en/watchserieshdtv.json",
-                "https://raw.githubusercontent.com//lalitjoshi06/scrapers/main/en/iwaatch.json"
 	],	
 	"5": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/rlsbb.json",
