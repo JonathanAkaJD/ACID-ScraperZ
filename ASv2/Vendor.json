@@ -1,1 +1,22 @@
-
+{
+    "name": "Bouncy for syncler",
+    "description": "Bouncy for syncler",
+    "tutorial": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
+    "support": "https://github.com/SynclerScrapers/vendor.synclerscrapers/issues",
+    "website": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
+    "packages": [
+        {
+            "manifest": "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/ASv2/Manifest.json",
+            "description": "Bouncy for Syncler. It contains all the sources you will need in one package. Use this package on its own."
+        }
+    ],
+    "cacheServers": [
+        "cache.bouncy.cc"
+    ],
+    "defaults": {
+        "packages": [
+            "https://raw.githubusercontent.com/JonathanAkaJD/ACID-ScraperZ/Syncler/ASv2/Manifest.json"
+        ],
+        "cacheServer": "cache.bouncy.cc"
+    }
+}
