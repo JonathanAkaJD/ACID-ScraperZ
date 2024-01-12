@@ -1,1 +1,7 @@
-
+{
+  "name": "Bouncy",
+  "id": "bouncy.effing.fast",
+  "version": 4,
+  "url": "https://raw.githubusercontent.com/WeeklyProblem/Bouncy/main/bouncy.min.js",
+  "type": "kosmos"
+}
