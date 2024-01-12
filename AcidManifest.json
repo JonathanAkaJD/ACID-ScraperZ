@@ -1,6 +1,6 @@
 {
-  "name": "OpenScrapers - Express",
-  "id": "openscraper.express",
+  "name": "jakedup - Express",
+  "id": "jakedup",
   "version": 6,
   "url": "https://syncler-providers.herokuapp.com/syncler/express-hybrid.json",
   "type": "express"
